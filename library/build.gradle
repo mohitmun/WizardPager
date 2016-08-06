@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
+
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
@@ -14,7 +14,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.android.support:support-v4:24.1.0'
 }
 
 apply from: '../gradle-mvn-push.gradle'
